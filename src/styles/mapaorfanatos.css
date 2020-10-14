@@ -1,0 +1,68 @@
+#mapaorfanatos{
+    width: 100vw;
+    height: 100vh;
+
+    position: relative;
+    display: flex;
+}
+
+#mapaorfanatos aside{
+    width: 440px;
+    background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
+    padding: 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#mapaorfanatos aside h2{
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 42px;
+    margin-top: 64px;
+}
+
+#mapaorfanatos aside p{
+    line-height: 28px;
+    margin-top: 24px;
+}
+
+#mapaorfanatos aside footer{
+    display: flex;
+    flex-direction: column;
+    line-height: 24px;
+}
+
+#mapaorfanatos aside footer strong{
+    font-weight: 900;
+}
+
+#mapaorfanatos .criar-orfanato{
+    position: absolute;
+
+    right: 40px;
+    bottom: 40px;
+
+    width: 64px;
+    height: 64px;
+    border-radius: 20px;
+
+    background: var(--blue);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: background-color 0.2s;
+
+    z-index: 10;
+}
+
+#mapaorfanatos .criar-orfanato:hover{
+    background: #0089A5;
+}
+
+#mapaorfanatos .leaflet-container{
+    z-index: 5;
+}

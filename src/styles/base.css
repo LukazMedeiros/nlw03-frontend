@@ -1,0 +1,39 @@
+
+/* font-family: 'Butterfly Kids', cursive;
+font-family: 'Chilanka', cursive;
+font-family: 'Nunito', sans-serif; */
+
+:root{
+    --background: #EBF2F5;
+    --blue: #15C3D6;
+    --yellow: #FFD666;
+    --green: #37C77F;
+    --deletar: #FF669D;
+    --green-low: #EDFFF6;
+    --blue-low: #D1EDF2;
+    --red-low: #FFE4EE;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+    /* outline: none; */
+}
+
+body{
+    color: #fff;
+    background: var(--background);
+}
+
+body,
+input,
+button,
+textarea{
+    font: 600 18px/1 'Nunito', sans-serif;
+}
+
+h1, h2{
+    font: 400 40px/1 'Butterfly Kids', cursive;
+}
